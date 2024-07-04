@@ -55,3 +55,10 @@ variable "private_data_subnet_cidr_az2" {
   description = "Private data subnet az2 cidr block"
   type        = string
 }
+
+
+# Security Group variables
+variable "ssh_location" {
+  description = "IP address to allow ssh access"
+  type        = string
+}
